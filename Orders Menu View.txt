@@ -1,9 +1,0 @@
-CREATE  OR REPLACE VIEW `orders_menu_view` AS
-SELECT M.Courses AS "MenuName"
-FROM menu as M
-WHERE M.orders_OrderID = ANY(
-SELECT O.OrderID 
-FROM orders as O
-WHERE Quantity > 2
-GROUP BY O.OrderID
-);
