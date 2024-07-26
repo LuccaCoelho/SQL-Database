@@ -1,11 +1,12 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `AddBooking`(IN booking_id INT, IN customer_id INT, IN booking_date DATE, IN TNumber INT)
+CREATE PROCEDURE `MakeBooking` (
+IN booking_id INT, 
+IN customer_id INT, 
+IN table_no int, 
+IN booking_date date)
 BEGIN
-INSERT INTO customers (CustomerID)
-VALUES (customer_id);
+INSERT INTO bookings (BookingID, BookingDate, TableNumber, CustomerID) VALUES 
+(booking_id, booking_date, table_no, customer_id);
 
-INSERT INTO bookings (BookingID, Date, TableNumber, CustomerID)
-VALUES (booking_id, booking_date, TNumber, customer_id);
-
-SELECT "New Booking added" as "Confirmation";
+SELECT "New booking added" AS "Confirmation";
 
 END

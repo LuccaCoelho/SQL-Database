@@ -1,5 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `GetMaxQuantity`()
+CREATE PROCEDURE `GetMaxQuantity` ()
 BEGIN
-SELECT MAX(Quantity) AS 'Max Quantity Order'
-FROM orders;
+SELECT max(quantity) AS "Max Quantity in Order" FROM orders;
 END
