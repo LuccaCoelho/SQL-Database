@@ -5,7 +5,9 @@ This project had the intent to learn more about building a database from scratch
 ## TECHNOLOGIES USED
 
 - **MySQL**: Used to create and manage the database.
-- **Jupyter Notebook**: Used to connect the SQL database 
+- **Jupyter Notebook**: Used to create an interactive notebook between the SQL server and Python.
+- **Python**: Used to create significant SQL queries to further analyse and modify the database.
+- **Tableau**: Used to create relevant and easy-to-understand graphs and charts for better data visualization.
 
 ## ER DIAGRAM
 
