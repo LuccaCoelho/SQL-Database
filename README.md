@@ -1,6 +1,11 @@
 # INTRODUCTION
 
-This project had the intent to learn more about building a database from scratch. First, an ER Diagram was built to better create the relationships between the database's tables. Using SQL queries, the database was created with appropriate constraints. Through Jupyter API, Stored Procedures and virtual Tables was created to better edit the data, as well as fetching desired data for visualization. Using Tableau, data charts and graphs were created to better visualize the data provided.
+This project had the intent to learn more about building a database from scratch. First, an ER Diagram was built to better create the relationships between the database's tables. Using SQL queries, the database was created with appropriate constraints. Through Jupyter Notebook, Stored Procedures and virtual Tables was created to better edit the data, as well as fetching desired data for visualization. Using Tableau, data charts and graphs were created to better visualize the data provided.
+
+## TECHNOLOGIES USED
+
+- **MySQL**: Used to create and manage the database.
+- **Jupyter Notebook**: Used to connect the SQL database 
 
 ## ER DIAGRAM
 
